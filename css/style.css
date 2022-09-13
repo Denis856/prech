@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-size: inherit;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/oswald/v49/TK3_WkUHHAIjg75cFRf3bXL8LICs169vgUE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tiro Devanagari Hindi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/tirodevanagarihindi/v3/55xyezN7P8T4e0_CfIJrwdodg9HoYw0i-M9fSA.ttf) format('truetype');
+}
+.wrapper {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+}
+.title {
+  font-family: 'Tiro Devanagari Hindi', serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+}
+.text {
+  font-size: 32px;
+  line-height: 47px;
+  letter-spacing: 0.05em;
+}
+.center1 {
+  display: flex;
+  align-items: center;
+}
+.center2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center21 {
+  display: flex;
+  justify-content: center;
+}
+.center3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center31 {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  padding: 0 200px;
+}
+a {
+  text-decoration: none;
+}
+.page1 {
+  background: url('../img/bg1.jpg') 0 0 / cover no-repeat;
+}
+.header {
+  padding: 50px 0;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .nav .logo a {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.header .nav .ul {
+  display: flex;
+  align-items: center;
+}
+.header .nav .ul .link {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #fff;
+  transition: all .5s ease;
+}
+.header .nav .ul .link:hover {
+  background: #543636;
+}
+.header .nav .ul .link:active {
+  color: #675b5b;
+}
+.header .nav .ul > *:not(:last-child) {
+  margin: 0 30px 0 0;
+}
+.page12 {
+  padding: 500px 0 114px 0;
+}
+.page12 .page1_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page12 .page1_body .page1_text {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+  padding: 30px 85px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 59px;
+  width: 784px;
+}
+.img1 {
+  display: none;
+}
+.img2 {
+  display: none;
+}

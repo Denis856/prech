@@ -1,0 +1,156 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,*:before,*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body {
+   width: 100%;
+   height: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h5{font-size: inherit;font-weight: 400;}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Tiro+Devanagari+Hindi&display=swap');
+
+.wrapper {
+   font-family: 'Oswald', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   color: #fff;
+}
+
+.title {
+   font-family: 'Tiro Devanagari Hindi', serif;
+   font-size: 48px;
+   font-weight: 400;
+   line-height: 64px;
+}
+
+.text {
+   font-size: 32px;
+   line-height: 47px;
+   letter-spacing: 0.05em;
+}
+
+.center1 {
+   display: flex;
+   align-items: center;
+}
+
+.center2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.center21 {
+   display: flex;
+   justify-content: center;
+}
+
+.center3 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.center31 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.container {
+   padding: 0 200px;
+}
+
+a {
+   text-decoration: none;
+}
+
+.page1 {
+   background: url('../img/bg1.jpg') 0 0/ cover no-repeat;
+}
+
+.header {
+   padding: 50px 0;
+   .nav {
+      .center3;
+      .logo a {
+         font-size: 48px;
+         font-weight: 400;
+         line-height: 24px;
+         letter-spacing: 0.05em;
+         cursor: pointer;
+      }
+      .ul {
+         .center1;
+         .link {
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 48px;
+            color: #fff;
+            transition: all .5s ease;
+         }
+         .link:hover {
+            background: rgb(84, 54, 54);
+         } 
+         .link:active {
+            color: rgb(103, 91, 91);
+         }
+      }
+      .ul>*:not(:last-child) {
+         margin: 0 30px 0 0;
+      }
+   }
+}
+
+.page12 {
+   padding: 500px 0 114px 0;
+   .page1_body {
+      .center2;
+      .page1_text {
+         background: rgba(0, 0, 0, 0.75);
+         border-radius: 30px;
+         padding: 30px 85px;
+         text-align: center;
+         font-size: 40px;
+         line-height: 59px;
+         width: 784px;
+      }
+   }
+}
+
+.img1 {
+   display: none;
+}
+.img2 {
+   display: none;
+}
