@@ -52,7 +52,7 @@
          <div class="container">
             <div class="page1_body">
                <div class="link">
-                  <a href="#" class="page1_link_series title">
+                  <a href="#" class="page1_link_series page1_link_series2 title">
                      1 series
                   </a>
                </div>
@@ -77,7 +77,7 @@
          <div class="container">
             <div class="page1_body">
                <div class="link">
-                  <a href="#" class="page1_link_series title">
+                  <a href="#" class="page1_link_series page1_link_series2 title">
                      2 series
                   </a>
                </div>
@@ -102,7 +102,7 @@
          <div class="container">
             <div class="page1_body">
                <div class="link">
-                  <a href="#" class="page1_link_series title">
+                  <a href="#" class="page1_link_series page1_link_series2 title">
                      3 series
                   </a>
                </div>
@@ -127,7 +127,7 @@
          <div class="container">
             <div class="page1_body">
                <div class="link">
-                  <a href="#" class="page1_link_series title">
+                  <a href="#" class="page1_link_series page1_link_series2 title">
                      4 series
                   </a>
                </div>
@@ -152,7 +152,7 @@
          <div class="container">
             <div class="page1_body">
                <div class="link">
-                  <a href="#" class="page1_link_series title">
+                  <a href="#" class="page1_link_series page1_link_series2 title">
                      5 series
                   </a>
                </div>
