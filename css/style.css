@@ -298,7 +298,7 @@ a {
   background: url('../img/bg50.jpg') 0 0 / cover no-repeat;
 }
 .page05 .page1_link_series {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(45, 43, 43, 0.75);
   transition: all .5s ease;
 }
 .page05 .page1_link_series:hover {
@@ -337,4 +337,7 @@ a {
 }
 .footer .footer_link_soces > *:not(:last-child) {
   margin: 0 40px 0 0;
+}
+.page1_link_series2 {
+  z-index: 40;
 }
