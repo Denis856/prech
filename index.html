@@ -48,6 +48,146 @@
             </div>
          </div>
       </div>
+      <div class="page11">
+         <div class="container">
+            <div class="page1_body">
+               <div class="link">
+                  <a href="#" class="page1_link_series title">
+                     1 series
+                  </a>
+               </div>
+               <div class="soc">
+                  <div class="img121">
+                     <img src="img/bg10.jpg" alt="some img">
+                  </div>
+                  <div class="img122">
+                     <img src="img/bg10.jpg" alt="some img">
+                  </div>
+                  <div class="page_text">
+                     <div class="text text3">
+                        Начало сериала предпологает интересный сюжет с колоритными 
+                        персонажами и неожиданным появлением нового персонажа Кэссиди. 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="page02">
+         <div class="container">
+            <div class="page1_body">
+               <div class="link">
+                  <a href="#" class="page1_link_series title">
+                     2 series
+                  </a>
+               </div>
+               <div class="soc">
+                  <div class="img121">
+                     <img src="img/bg20.jpg" alt="some img">
+                  </div>
+                  <div class="img122">
+                     <img src="img/bg20.jpg" alt="some img">
+                  </div>
+                  <div class="page_text">
+                     <div class="text text3">
+                        Вторая серия преподносит нам  большое раскрытие нового персонажа Кэссиди, 
+                        с дополнением новой героини на которую в принципе будет пох.й в дальнейшем 
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="page03">
+         <div class="container">
+            <div class="page1_body">
+               <div class="link">
+                  <a href="#" class="page1_link_series title">
+                     3 series
+                  </a>
+               </div>
+               <div class="soc">
+                  <div class="img121">
+                     <img src="img/bg30.jpg" alt="some img">
+                  </div>
+                  <div class="img122">
+                     <img src="img/bg30.jpg" alt="some img">
+                  </div>
+                  <div class="page_text">
+                     <div class="text text3">
+                        Третью серию не помню, но вроде бы была сцена близкого 
+                        общения скучного (как оказалось проповедника) и Кэссиди.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="page04">
+         <div class="container">
+            <div class="page1_body">
+               <div class="link">
+                  <a href="#" class="page1_link_series title">
+                     4 series
+                  </a>
+               </div>
+               <div class="soc">
+                  <div class="img121">
+                     <img src="img/bg40.jpg" alt="some img">
+                  </div>
+                  <div class="img122">
+                     <img src="img/bg40.jpg" alt="some img">
+                  </div>
+                  <div class="page_text">
+                     <div class="text text3">
+                        В четвёртой серии нерешительность проведника, которого похер как зовут, 
+                        Кэссиди и ангелы (ПОЛНЫЙ БРЕД).
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="page05">
+         <div class="container">
+            <div class="page1_body">
+               <div class="link">
+                  <a href="#" class="page1_link_series title">
+                     5 series
+                  </a>
+               </div>
+               <div class="soc">
+                  <div class="img121">
+                     <img src="img/bg50.jpg" alt="some img">
+                  </div>
+                  <div class="img122">
+                     <img src="img/bg50.jpg" alt="some img">
+                  </div>
+                  <div class="page_text">
+                     <div class="text text3">
+                        На этой серии в принципе можно остановиться и даже не раскрывшаяся 
+                        изюминка сериала совсем не интересна.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer_body">
+               <div class="footer_title">
+                  Это не ссылки, а просто картинки
+               </div>
+               <div class="footer_link_soces">
+                  <a href="#"><img src="img/soc1.png" alt="some img"></a>
+                  <a href="#"><img src="img/soc2.png" alt="some img"></a>
+                  <a href="#"><img src="img/soc3.png" alt="some img"></a>
+                  <a href="#"><img src="img/soc4.png" alt="some img"></a>
+               </div>
+            </div>
+         </div>
+      </footer>
    </div>
 </body>
 </html>
