@@ -3,7 +3,16 @@
       padding: 0 150px;
    }
 }
-
+@media(orientation:landscape) {
+   .header {
+      padding: 20px 0;
+      background: rgb(79, 44, 32);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 50;
+   }
+}
 @media(max-width: 1600px) {
    .header .nav .ul > *:not(:last-child) {
       margin: 0 25px 0 0;
