@@ -13,18 +13,23 @@
       <div class="page1">
          <div class="header">
             <div class="container">
-               <nav class="nav">
-                  <div class="logo">
-                     <a>Preacher</a>
-                  </div>
-                  <ul class="ul">
-                     <li><a class="link" href="#series1">1 series</a></li>
-                     <li><a class="link" href="#series2">2 series</a></li>
-                     <li><a class="link" href="#series3">3 series</a></li>
-                     <li><a class="link" href="#series4">4 series</a></li>
-                     <li><a class="link" href="#series5">5 series</a></li>
-                  </ul>
-               </nav>
+               <div class="header_content">
+                  <nav class="nav">
+                     <div class="logo">
+                        <a>Preacher</a>
+                     </div>
+                     <div id="menu_burger" onclick="addlock()" class="menu_burger">
+                        <span></span>
+                     </div>
+                     <ul class="ul">
+                        <li id="li"><a class="link_head" href="#series1">1 series</a></li>
+                        <li id="li"><a class="link_head" href="#series2">2 series</a></li>
+                        <li id="li"><a class="link_head" href="#series3">3 series</a></li>
+                        <li id="li"><a class="link_head" href="#series4">4 series</a></li>
+                        <li id="li"><a class="link_head" href="#series5">5 series</a></li>
+                     </ul>
+                  </nav>
+               </div>
             </div>
          </div>
          <div class="page12">
