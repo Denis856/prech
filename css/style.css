@@ -160,7 +160,7 @@ a {
   display: flex;
   align-items: center;
 }
-.header .nav .ul .link {
+.header .nav .ul .link_head {
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 36px;
@@ -169,10 +169,10 @@ a {
   color: #fff;
   transition: all .5s ease;
 }
-.header .nav .ul .link:hover {
+.header .nav .ul .link_head:hover {
   background: #543636;
 }
-.header .nav .ul .link:active {
+.header .nav .ul .link_head:active {
   color: #675b5b;
 }
 .header .nav .ul > *:not(:last-child) {
@@ -419,4 +419,47 @@ a {
 }
 .Series5 .page1_link_series:active {
   color: #a19b9b;
+}
+.ul.active {
+  top: 0;
+}
+.menu_burger {
+  display: none;
+}
+.menu_burger span {
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  top: 9px;
+  transition: all .3s ease 0s;
+}
+.menu_burger:before,
+.menu_burger:after {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+}
+.menu_burger:before {
+  top: 0;
+  transition: all .3s ease 0s;
+}
+.menu_burger:after {
+  bottom: 0;
+  transition: all .3s ease 0s;
+}
+.menu_burger.active span {
+  transform: scale(0);
+}
+.menu_burger.active:before {
+  transform: rotate(45deg);
+  top: 9px;
+}
+.menu_burger.active:after {
+  transform: rotate(-45deg);
+  bottom: 9px;
 }
