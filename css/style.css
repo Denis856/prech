@@ -463,3 +463,34 @@ a {
   transform: rotate(-45deg);
   bottom: 9px;
 }
+@keyframes rotate {
+   0% {
+      color: #fff;
+   }
+   50% {
+      color: rgb(137, 61, 61);
+   }
+   100% {
+      color: #fff;
+   }
+}
+
+@keyframes scale {
+   0% {
+      transform: scale(1);
+   }
+   50% {
+      transform: scale(1.2);
+   }
+   100% {
+      transform: scale(1);
+   }
+}
+
+.title:nth-child {
+   animation: rotate 5s infinite linear;
+}
+
+.footer .footer_link_soces a img:nth-child(1) {
+   animation: scale 2s infinite linear;
+}
