@@ -477,7 +477,7 @@
       font-size: 27px;
       line-height: 25px;
    }
-   #li:not(:last-child) {
+   #ul>*:not(:last-child) {
       margin-bottom: 50px;
    }
    .page12 .page1_body .page1_text {
