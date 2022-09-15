@@ -21,12 +21,12 @@
                      <div id="menu_burger" onclick="addlock()" class="menu_burger">
                         <span></span>
                      </div>
-                     <ul class="ul">
-                        <li id="li"><a class="link_head" href="#series1">1 series</a></li>
-                        <li id="li"><a class="link_head" href="#series2">2 series</a></li>
-                        <li id="li"><a class="link_head" href="#series3">3 series</a></li>
-                        <li id="li"><a class="link_head" href="#series4">4 series</a></li>
-                        <li id="li"><a class="link_head" href="#series5">5 series</a></li>
+                     <ul class="ul" id="ul">
+                        <li class="li1"><a class="link_head" href="#series1">1 series</a></li>
+                        <li class="li1"><a class="link_head" href="#series2">2 series</a></li>
+                        <li class="li1"><a class="link_head" href="#series3">3 series</a></li>
+                        <li class="li1"><a class="link_head" href="#series4">4 series</a></li>
+                        <li class="li1"><a class="link_head" href="#series5">5 series</a></li>
                      </ul>
                   </nav>
                </div>
