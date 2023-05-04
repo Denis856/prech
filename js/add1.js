@@ -158,7 +158,21 @@ add_btn.forEach(item => {
          btn02.addEventListener('click', ()=> {
             basket.classList.remove('active');
             cart.classList.remove('active');
+            document.querySelector('.order').classList.remove('active');
+            updatetotal();
          });
+
+
+         buy.onclick = () => {
+            gallery20.innerHTML = '';
+            gallery20.appendChild(btn02);
+            document.querySelector('.order').classList.add('active');
+         };
+         
+         document.querySelector('.order span').onclick = () => {
+            document.querySelector('.order').classList.remove('active');
+            updatetotal();
+         };
       };
    });
 
@@ -187,6 +201,7 @@ function updatetotal(){
       // if price has some cents
 
       document.getElementsByClassName('cart__total2')[0].innerText = total + '  ₽';
+      document.querySelector('.price00').innerText = total + '  ₽';
 }
 
 //  change
@@ -237,3 +252,4 @@ logo.onclick = () => {
       item.classList.remove('dis_no');
    });
 };
+

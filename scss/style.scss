@@ -1460,3 +1460,32 @@ body {
       display: block;
    }
 }
+
+.order {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0.1);
+   background-color: #fff;
+   font-size: 24px;
+   padding: 20px 30px;
+   border-radius: 30px;
+   border: 2px solid #000;
+   opacity: 0;
+   z-index: -1;
+   text-align: center;
+   span {
+      padding: 10px 0;
+      cursor: pointer;
+      font-weight: 700;
+   }
+   &.active {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+      z-index: 1;
+   }
+}
+
+.price00 {
+   padding: 10px 0;
+}
