@@ -97,6 +97,8 @@ add_btn.forEach(item => {
          gallery2.removeChild(product);
          gallery2.removeChild(img1);
          gallery2.removeChild(btn_add);
+         logo.classList.remove('active');
+         catalog_li.classList.remove('active');
          away.forEach(item => {
             item.classList.remove('dis_no');
          });
@@ -202,8 +204,9 @@ count.onclick = () => {
 };
 
 add_btn01.forEach(item => {
-   cart.classList.remove('active');
    item.addEventListener('click', ()=> {
+      cart.classList.remove('active');
+      logo.classList.add('active');
       catalog_li.classList.add('active');
       away.forEach(item => {
          item.classList.add('dis_no');
