@@ -20,6 +20,8 @@ a {
   color: inherit;
   font-size: inherit;
   font-weight: inherit;
+  scroll-behavior: smooth;
+  z-index: inherit;
 }
 
 h1, h2, h3, h4, h5, h6, a, p, input {
@@ -258,7 +260,7 @@ body {
 .header__link2 {
   color: #161616;
   white-space: nowrap;
-  z-index: 20;
+  z-index: inherit;
 }
 @media (max-width: 510px) {
   .header__link2 {

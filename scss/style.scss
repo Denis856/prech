@@ -19,6 +19,8 @@ a {
    color: inherit;
    font-size: inherit;
    font-weight: inherit;
+   scroll-behavior: smooth;
+   z-index: inherit;
 }
 
 h1,h2,h3,h4,h5,h6,a,p,input {
@@ -153,7 +155,7 @@ body {
          &.active {
             top: 0;
             opacity: 1;
-            z-index: 50
+            z-index: 50;
          }
       }
    }
@@ -209,7 +211,7 @@ body {
       @media(max-width: 350px) {
          font-size: 20px;
       }
-      z-index: 20;
+      z-index: inherit;
    }
    &__link20 {
       @media(min-width: $wd4) {
