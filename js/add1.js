@@ -140,7 +140,6 @@ add_btn.forEach(item => {
          
          var btn02 = document.createElement('button');
          btn02.classList.add('cart__back');
-         btn02.classList.add('cart__back02');
          btn02.classList.add('text2');
          btn02.textContent = 'Back';
 

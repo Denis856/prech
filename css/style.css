@@ -258,6 +258,7 @@ body {
 .header__link2 {
   color: #161616;
   white-space: nowrap;
+  z-index: 20;
 }
 @media (max-width: 510px) {
   .header__link2 {
@@ -1682,7 +1683,7 @@ body {
 .cart__back {
   position: absolute;
   top: -50px;
-  left: 0px;
+  left: 10px;
   background: transparent;
 }
 

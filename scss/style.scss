@@ -209,6 +209,7 @@ body {
       @media(max-width: 350px) {
          font-size: 20px;
       }
+      z-index: 20;
    }
    &__link20 {
       @media(min-width: $wd4) {
@@ -1271,7 +1272,7 @@ body {
    &__back {
       position: absolute;
       top: -50px;
-      left: 0px;
+      left: 10px;
       background: transparent;
    }
 }
