@@ -203,6 +203,9 @@ body {
     opacity: 1;
     z-index: 20;
   }
+  .header__list2.active a {
+    z-index: 30;
+  }
 }
 .header__item1 {
   margin-right: 32px;
@@ -259,14 +262,12 @@ body {
 }
 .header__link2 {
   color: #161616;
-  white-space: nowrap;
   z-index: inherit;
 }
 @media (max-width: 510px) {
   .header__link2 {
     color: #fff;
     font-size: 25px;
-    white-space: auto;
   }
 }
 @media (max-width: 350px) {
