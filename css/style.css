@@ -201,7 +201,7 @@ body {
   .header__list2.active {
     top: 0;
     opacity: 1;
-    z-index: 50;
+    z-index: 20;
   }
 }
 .header__item1 {
@@ -334,7 +334,7 @@ body {
 .header__burger {
   position: relative;
   right: 0;
-  z-index: 50;
+  z-index: 20;
   cursor: pointer;
   -webkit-transform: translateX(-30px);
           transform: translateX(-30px);

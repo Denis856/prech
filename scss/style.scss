@@ -155,7 +155,7 @@ body {
          &.active {
             top: 0;
             opacity: 1;
-            z-index: 50;
+            z-index: 20;
          }
       }
    }
@@ -262,7 +262,7 @@ body {
    &__burger {
       position: relative;
       right: 0;
-      z-index: 50;
+      z-index: 20;
       cursor: pointer;
       transform: translateX(-30px);
       margin-left: 50px;
